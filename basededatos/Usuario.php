@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo"<script> 
             alert('Ingresando... <3');
         </script>";
-        header("Location: ../comentarios/index.php");
+        header("Location: ../coment/index.php");
     } else {
         echo"<script> 
             alert('Datos mal Ingresados');
